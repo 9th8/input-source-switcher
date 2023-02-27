@@ -27,6 +27,5 @@ How to build
     mkdir build && cd build
     cmake ..
     make
-    make install
     mkdir -p ~/.local/lib
     mv libInputSourceSwitcher.dylib ~/.local/lib/
