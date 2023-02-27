@@ -28,6 +28,5 @@ How to build
     cmake ..
     make
     make install
-    mkdir -p ~/.local/{bin,lib}
-    mv issw ~/.local/bin
+    mkdir -p ~/.local/lib
     mv libInputSourceSwitcher.dylib ~/.local/lib/
