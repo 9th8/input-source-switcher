@@ -22,28 +22,10 @@ Usage
 How to build
 ------------
 
-    git clone https://github.com/vovkasm/input-source-switcher.git
+    git clone https://github.com/9th8/input-source-switcher.git
     cd input-source-switcher
     mkdir build && cd build
     cmake ..
     make
     make install
-
-How to develop with Xcode
--------------------------
-
-    cd input-source-switcher
-    mkdir xcode && cd xcode
-    cmake -G Xcode ..
-    open InputSourceSwitcher.xcodeproj
-
-Author
-------
-
-Vladimir Timofeev
-
-Licensing
----------
-
-This projected is licensed under the terms of the MIT license.
 
