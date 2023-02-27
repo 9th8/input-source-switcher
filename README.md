@@ -22,10 +22,12 @@ Usage
 How to build
 ------------
 
-    git clone https://github.com/9th8/input-source-switcher.git
+    git clone git@github.com:9th8/input-source-switcher.git
     cd input-source-switcher
     mkdir build && cd build
     cmake ..
     make
     make install
-
+    mkdir -p ~/.local/{bin,lib}
+    mv issw ~/.local/bin
+    mv libInputSourceSwitcher.dylib ~/.local/lib/
